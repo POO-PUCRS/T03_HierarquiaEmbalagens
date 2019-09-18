@@ -1,6 +1,6 @@
 public class Cilindro extends Embalagem{
-    public Cilindro(int ladoDaBase,int altura){
-        super(ladoDaBase,ladoDaBase,altura);
+    public Cilindro(String cod,double pu,int ladoDaBase,int altura){
+        super(cod,pu,ladoDaBase,ladoDaBase,altura);
     }
 
     @Override
